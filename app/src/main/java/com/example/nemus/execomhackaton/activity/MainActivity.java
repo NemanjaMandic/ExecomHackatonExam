@@ -45,7 +45,7 @@ private EditText itemName, description, price, date;
         setContentView(R.layout.activity_main);
 
 
-
+        db = new DbHelper(this);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

@@ -52,7 +52,7 @@ public class DbHelper extends SQLiteOpenHelper implements BaseColumns {
                     PRICE + " INTEGER, " +
                     DESCRIPTION + " TEXT, " +
                     DATE + " TEXT, " +
-                    FK_ITEM_ID + "INTEGER NOT NULL, FOREIGN KEY (" +FK_ITEM_ID+ ") REFERENCES " +
+                    FK_ITEM_ID + " INTEGER NOT NULL, FOREIGN KEY (" +FK_ITEM_ID+ ") REFERENCES " +
                     TABLE_USERS + "( " + USER_ID + "))";
 
     //drop users table
